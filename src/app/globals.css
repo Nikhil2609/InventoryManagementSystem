@@ -15,6 +15,7 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  box-sizing: border-box;
 }
 
 body {
@@ -23,12 +24,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
 }
 
 a {
@@ -44,7 +39,14 @@ a {
 
 .theme-bg {
   background-color: #5F4B8B !important;
+  color: white !important
 }
+
+.theme-color {
+  color: #5F4B8B !important;
+  background-color: white !important
+}
+
 .active {
   background-color: #5F4B8B !important;
   color: white
@@ -61,4 +63,7 @@ a {
   color: white;
 }
 
+.page-title {
+  color: #5F4B8B;
+}
 /* MUI css end */

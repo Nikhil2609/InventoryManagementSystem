@@ -12,13 +12,17 @@ export default function Header() {
             }}
             className="theme-bg"
         >
-            <Toolbar style={{ display: "flex", justifyContent: "space-between" }}>
-                <Typography variant="h6" style={{ display: "flex", flexDirection: "row", justifyContent: "center", alignItems: "center" }}>
-                    <Avatar style={{
-                        backgroundColor: "white",
-                        color: "#326b44"
-                    }} alt="Remy Sharp" src="">{"A"}</Avatar> &nbsp;
-                    ABC
+            <Toolbar className="flex justify-between">
+                <Typography
+                    variant="h6"
+                    className="flex flex-row justify-center items-center"
+                >
+                    <Avatar
+                        className="theme-color"
+                        alt="Remy Sharp"
+                        src="">{"N"}
+                    </Avatar> &nbsp;
+                    Nikhil Panchal
                 </Typography>
 
                 <Box title="logout">

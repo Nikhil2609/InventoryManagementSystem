@@ -1,0 +1,12 @@
+usePathname() -> get current URL
+useRouter() -> For navigation
+
+
+
+loading.tsx -> wrap in children in Layout file using suspense fallback -> loading UI will apper in case of promise / data fetching
+
+
+additional implementation
+----------------------------------
+// used tailwind css
+// used loading UI skeleton

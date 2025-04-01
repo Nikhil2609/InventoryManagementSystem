@@ -1,8 +1,14 @@
+import { CustomButton } from "@/app/components/common/CustomButton";
+import { Box, Typography } from "@mui/material";
+
 export default function Home() {
     return (
-      <div>
-        Customers Page
-      </div>
+      <Box>
+        <Box className="flex justify-between">
+          <Typography className="page-title" variant="h5">Customers</Typography>
+          <CustomButton label="Create" />
+        </Box>
+      </Box>
     );
   }
   

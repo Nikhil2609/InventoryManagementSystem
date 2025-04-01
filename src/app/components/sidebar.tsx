@@ -1,7 +1,7 @@
 "use client"
 import { usePathname, useRouter } from "next/navigation";
 import { Box, Drawer, List, ListItem, ListItemIcon, ListItemText, Toolbar } from "@mui/material";
-import { Dashboard, Assignment, AccountCircle, ListAlt, CategorySharp } from '@mui/icons-material';
+import { Dashboard, AccountCircle, ListAlt, CategorySharp } from '@mui/icons-material';
 import Image from "next/image";
 import { sideBarWidth } from "../utils/constant";
 import stock from "../../../public/stock.png";
